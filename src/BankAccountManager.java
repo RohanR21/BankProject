@@ -20,5 +20,9 @@ public class BankAccountManager {
         return null;
     }
 
+    public static int getNumAccounts() {
+        return BankAccounts.size();
+    }
+
 
 }
