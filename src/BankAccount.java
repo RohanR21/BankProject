@@ -25,6 +25,13 @@ public class BankAccount {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+    public void addBalance(double amount) {
+        this.balance += amount;
+    }
+
+    public void removeBalance(double amount) {
+        this.balance -= amount;
+    }
 
     public double getBalance() {
         return balance;
